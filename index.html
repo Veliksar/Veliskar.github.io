@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colorful</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+          rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>-->
+    <!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
+    <!--<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+    <script src="scripts/slick/slick.min.js"></script>
+    <!--<script src="scripts/main.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/parallax/parallax.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="scripts/wow.js"></script>
+    <script> new WOW().init();</script>
+</head>
+<body>
+<header>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="img/video-bg.mp4" type="video/mp4">
+    </video>
+    <div class="container-fluid border-bottom-decor pb-menu" id="home">
+        <div class="row align-items-center">
+            <div class="col-xxl-4 col-xl-4 col-lg-12 mx-xl-auto">
+                <p class="logo">Colorful <span>Flat</span></p>
+            </div>
+            <div class="col-auto offset-xl-2 offset-lg-0 pr-5 mx-lg-auto mx-md-0">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="material-icons">dehaze</i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#about" id="navbarDropdown" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    About
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#features">Features</a>
+                                    <a class="dropdown-item" href="#advantages">Advantages</a>
+                                    <a class="dropdown-item" href="#testimonials">Testimonials</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#our_team">Our Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faqs">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#partners">Partners</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wrapper-top1">
+                    <p class="title">The best open page template for</p>
+                    <h1>Web Professionals</h1>
+                    <div class="form col-lg-4 col-md-8 col-sm-8 col-xs-10 mx-auto">
+                        <form action="POST" class="form-group">
+                            <input type="text" required placeholder="Full name" class="form-control" id="name">
+                            <input type="email" required placeholder="E-mail" class="form-control" id="mail">
+                            <input type="tel" required placeholder="Phone" class="form-control" id="phone">
+                            <input type="submit" value="Get started now!" class="btn btn-lg btn-primary"
+                                   onclick="check()">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="about padding-vertical shadow-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="title-wrapper">
+                    <h2>About Us</h2>
+                    <p class="col-10 mx-auto px-2">Lorem ipsum dolor sit amet, cetero temporibus ex nec.
+                        Et facilisis definiebas est, nec et autem impetus oportere, vim te exerci noster omnium.
+                        Habeo dicam vim at, sale possit nostrum et pro.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="element wow fadeInLeft" data-wow-duration="1s">
+                        <div class="icon-wrapper"><i class="material-icons">message</i></div>
+                        <div class="right-content">
+                            <h4>Exclusive shortcodes</h4>
+                            <p>Malorum dolores gloriatur pro at, id offendit
+                                lucilius democritum quo. Ludus ubique fastidii dolores sit et persius reformidans.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="element  wow fadeInRight" data-wow-duration="1s">
+                        <div class="icon-wrapper"><i class="material-icons">verified_user</i></div>
+                        <div class="right-content">
+                            <h4>100% valid and clean code</h4>
+                            <p>Malorum dolores gloriatur pro at, id offendit
+                                lucilius democritum quo. Ludus ubique fastidii dolores sit et persius reformidans.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="element  wow fadeInLeft" data-wow-duration="1s">
+                        <div class="icon-wrapper"><i class="material-icons">loop</i></div>
+                        <div class="right-content">
+                            <h4>Free lifetime updates</h4>
+                            <p>Malorum dolores gloriatur pro at, id offendit
+                                lucilius democritum quo. Ludus ubique fastidii dolores sit et persius reformidans.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="element  wow fadeInRight" data-wow-duration="1s">
+                        <div class="icon-wrapper"><i class="material-icons">headset_mic</i></div>
+                        <div class="right-content">
+                            <h4>24/7/365 customer support</h4>
+                            <p>Malorum dolores gloriatur pro at, id offendit
+                                lucilius democritum quo. Ludus ubique fastidii dolores sit et persius reformidans.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features padding-vertical bg-grey" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="title-wrapper">
+                        <h2>Features</h2>
+                        <p class="col-11 mx-auto">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et facilisis
+                            definiebas
+                            est, nec et autem impetus oportere, vim te exerci noster omnium. Habeo dicam vim at, sale
+                            possit
+                            nostrum et pro.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-wrap">
+                <div class="row">
+                    <div class="col-xl-6 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100">
+                        <div class="features__item">
+                            <div class="icon-wrapper"><i class="material-icons">tune</i></div>
+                            <div class="right-content">
+                                <h4>Instant Skins Switcher</h4>
+                                <p>Switch styles instantly; choose among Material, Flat, Minimal, Grunge, Metro, 8-bit
+                                    or
+                                    Non-Standard Geometry.</p>
+                            </div>
+                        </div>
+                        <div class="features__item">
+                            <div class="icon-wrapper"><i class="material-icons">dvr</i></div>
+                            <div class="right-content">
+                                <h4>Various Scripts Included</h4>
+                                <p>Various Scripts are already on a board. Use
+                                    Owl Carousel, Tabs etc. for your needs</p>
+                            </div>
+                        </div>
+                        <div class="features__item">
+                            <div class="icon-wrapper"><i class="material-icons">devices</i></div>
+                            <div class="right-content">
+                                <h4>Fully Responsive Design</h4>
+                                <p>Product is tested on the common devices. It will render and scale on any possible
+                                    screen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 px-md-5 px-lg-0">
+                        <div class="wow fadeInRight" data-wow-duration="1s" data-wow-offset="100">
+                            <img src="img/manform.png" alt="man with books" class="man">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages padding-vertical bg-red" id="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="title-wrapper">
+                        <h2>Advantages</h2>
+                        <p class="col-11 mx-auto">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et facilisis
+                            definiebas
+                            est, nec et autem impetus oportere, vim te exerci noster omnium. Habeo dicam vim at, sale
+                            possit
+                            nostrum et pro.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="advantages__item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <h3>Cu tantas platonem</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+                </div>
+                <div class="advantages__item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <h3>Aperiam suscipiantur</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+                </div>
+                <div class="advantages__item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <h3>Nusquam facilisis</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+                </div>
+                <div class="advantages__item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <h3>Ex vel legimus</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+                </div>
+                <div class="advantages__item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <h3>Nusquam facilisis</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+                </div>
+                <div class="advantages__item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <h3>Ex vel legimus</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+                </div>
+                <div class="advantages__item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <h3>Aperiam suscipiantur</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+                </div>
+                <div class="advantages__item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <h3>Cu tantas platonem</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials padding-vertical" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-9 mx-auto">
+                    <div class="title-wrapper">
+                        <h2 class="">Testimonials</h2>
+                    </div>
+                    <div class="sliderT">
+                        <blockquote>
+                            <i class="material-icons">comment</i> <!--я честно искал :)-->
+                            <p>Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro.
+                                Nec paulo essent hendrerit ut, mel cu oblique eripuit maiestatis.</p>
+                            <img src="img/man-icon1.png" alt="Rob Singer, Web Developer">
+                            <p class="employer">Rob Singer, Web Developer</p>
+                        </blockquote>
+                        <blockquote>
+                            <i class="material-icons">comment</i> <!--я честно искал :)-->
+                            <p>Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro.
+                                Nec paulo essent hendrerit ut, mel cu oblique eripuit maiestatis.</p>
+                            <img src="img/man-icon2.png" alt="Alan Johnson,SEO">
+                            <p class="employer">Alan Johnson, SEO</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-team padding-vertical" id="our_team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="row">
+                <div class="our-team__member col-xl-3 col-md-6 col-xs-12 wow flipInY" data-wow-duration="2s">
+                    <img src="img/member1.png" alt="">
+                    <p class="name">Alan Sobakovich</p>
+                    <p class="spec">Founder</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam
+                        est. </p>
+                </div>
+                <div class="our-team__member col-xl-3 col-md-6 col-xs-12 wow flipInY" data-wow-duration="2s">
+                    <img src="img/member2.png" alt="">
+                    <p class="name">John Mu</p>
+                    <p class="spec">Product Manager</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam
+                        est. </p>
+                </div>
+                <div class="our-team__member col-xl-3 col-md-6 col-xs-12 wow flipInY" data-wow-duration="2s">
+                    <img src="img/member3.png" alt="">
+                    <p class="name">Melissa Jade</p>
+                    <p class="spec">Designer</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam
+                        est. </p>
+                </div>
+                <div class="our-team__member col-xl-3 col-md-6 col-xs-12 wow flipInY" data-wow-duration="2s">
+                    <img src="img/member4.png" alt="">
+                    <p class="name">Greg Mercury</p>
+                    <p class="spec">Developer</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam
+                        est. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faqs" class="faqs parallax-window padding-vertical" data-parallax="scroll"
+             data-image-src="img/bg-faqs.jpg">
+        <div class="container">
+            <div class="title-wrapper">
+                <h2>FAQs</h2>
+            </div>
+            <div id="accordion" class="wow rollIn">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-header  " id="headingOne">
+                                <h3 class="mb-0">
+                                    <button class="drop" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                        Tempor incididunt
+                                    </button>
+                                </h3>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header  " id="headingTwo">
+                                <h3 class="mb-0">
+                                    <button class="drop collapsed" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                        Eiusmod tempor
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header  " id="headingThree">
+                                <h3 class="mb-0">
+                                    <button class="drop collapsed" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                        Incididunt ut labore
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-header  " id="heading4">
+                                <h3 class="mb-0">
+                                    <button class="drop" data-toggle="collapse" data-target="#collapse4"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                        Esse cillum
+                                    </button>
+                                </h3>
+                            </div>
+
+                            <div id="collapse4" class="collapse" aria-labelledby="heading4"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header  " id="heading5">
+                                <h3 class="mb-0">
+                                    <button class="drop collapsed" data-toggle="collapse"
+                                            data-target="#collapse5" aria-expanded="false"
+                                            aria-controls="collapse5">
+                                        Dolore eu fugiat
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapse5" class="collapse" aria-labelledby="heading5"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header  " id="heading6">
+                                <h3 class="mb-0">
+                                    <button class="drop collapsed" data-toggle="collapse"
+                                            data-target="#collapse6" aria-expanded="false"
+                                            aria-controls="collapse6">
+                                        Bulla pariatu
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapse6" class="collapse" aria-labelledby="heading6"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-header  " id="heading7">
+                                <h3 class="mb-0">
+                                    <button class="drop" data-toggle="collapse" data-target="#collapse7"
+                                            aria-expanded="false" aria-controls="collapse7">
+                                        Eiusmod tempor
+                                    </button>
+                                </h3>
+                            </div>
+
+                            <div id="collapse7" class="collapse" aria-labelledby="heading7"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header  " id="heading8">
+                                <h3 class="mb-0">
+                                    <button class="drop collapsed" data-toggle="collapse"
+                                            data-target="#collapse8" aria-expanded="false"
+                                            aria-controls="collapse8">
+                                        Incididunt ut labore
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapse8" class="collapse" aria-labelledby="heading8"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header  " id="heading9">
+                                <h3 class="mb-0">
+                                    <button class="drop collapsed" data-toggle="collapse"
+                                            data-target="#collapse9" aria-expanded="false"
+                                            aria-controls="collapse9">
+                                        Esse cillum
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapse9" class="collapse" aria-labelledby="heading9"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. moon officia aute, non cupidatat skateboard dolor
+                                    brunch.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-its-work padding-vertical">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-12 order-xs-2 order-sm-2 order-md-2 order-lg-2 order-xl-1 wow fadeInLeft">
+                    <iframe width="100%" height="340px" src="https://www.youtube.com/embed/devo3kdSPQY" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="col-xl-6 col-lg-12 order-xs-1 order-sm-1 order-md-1 order-lg-1 order-xl-2 wow fadeInRight">
+                    <div class="content">
+                        <h2>How Its Work</h2>
+                        <p class="sub-title">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et facilisis
+                            definiebas
+                            est.</p>
+                        <p>Malorum dolores gloriatur pro at, id offendit lucilius democritum quo. Ludus ubique fastidii
+                            dolores
+                            sit et persius reformidans. Ei vide movet tibique ius, eos vivendo consetetur theophrastus
+                            cu.
+                            Eum
+                            erroribus necessitatibus ne. Eius singulis ea his, debitis nonumes at per appareat ponderum
+                            eos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio shadow-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="project col-xl-3 col-lg-6 col-md-6 col-sm-8 mx-sm-auto pl-0 pr-0 ml-0 mr-0">
+                    <a class="fancyimg" data-fancybox="gallery" href="img/work1.jpg"><img src="img/work1.jpg" alt="our work">
+                        <i class="material-icons">add</i></a>
+                </div>
+                <div class="project col-xl-3 col-lg-6 col-md-6 col-sm-8 mx-sm-auto pl-0 pr-0 ml-0 mr-0">
+                    <a class="fancyimg" data-fancybox="gallery" href="img/work2.jpg"><img src="img/work2.jpg" alt="our work">
+                        <i class="material-icons">add</i></a>
+                </div>
+                <div class="project col-xl-3 col-lg-6 col-md-6 col-sm-8 mx-sm-auto pl-0 pr-0 ml-0 mr-0">
+                    <a class="fancyimg" data-fancybox="gallery" href="img/work3.jpg"><img src="img/work3.jpg" alt="our work">
+                        <i class="material-icons">add</i></a>
+                </div>
+                <div class="project col-xl-3 col-lg-6 col-md-6 col-sm-8 mx-sm-auto pl-0 pr-0 ml-0 mr-0">
+                    <a class="fancyimg" data-fancybox="gallery" href="img/work4.jpg"><img src="img/work4.jpg" alt="our work">
+                        <i class="material-icons">add</i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog padding-vertical--bottomlow bg-grey" id="blog">
+        <!--<hr class="abouthr">-->
+        <div class="container">
+            <div class="row">
+                <div class="title-wrapper">
+                    <h2>Latest From the Blog</h2>
+                    <p class="col-11 mx-auto">Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et facilisis
+                        definiebas
+                        est,
+                        nec et autem impetus
+                        oportere, vim te exerci noster omnium. Habeo dicam vim at, sale possit nostrum et pro.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 photobox wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100">
+                    <a href="#" class="photobox__previewbox">
+                        <i class="material-icons">launch</i>
+                        <img class="photobox__preview" src="img/blogpost1.jpg" alt="blog1">
+                        <div class="photobox-wrap">
+                            <p class="data photobox__label">2 days ago</p>
+                            <p class="title photobox__label2">No nam conceptam suscipiantur . . .</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-md-5 mb-sm-5 mb-xs-5 photobox wow fadeInRight" data-wow-duration="1s" data-wow-offset="100">
+                    <a href="#" class="photobox__previewbox">
+                        <i class="material-icons">launch</i>
+                        <img class="photobox__preview" src="img/blogpost2.jpg" alt="blog2">
+                        <div class="photobox-wrap">
+                            <p class="data photobox__label">2 days ago</p>
+                            <p class="title photobox__label2">No nam conceptam suscipiantur . . .</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners padding-vertical" id="partners">
+        <div class="container">
+            <h2>Our partners</h2>
+            <div class="row">
+                <a class="col-xl-4 mx-lg-auto wow fadeInUp" href="https://www.templatemonster.com/">
+                    <div class="partner-1"></div>
+                </a>
+                <a class="col-xl-4 mx-lg-auto wow fadeInUp" href="https://www.motocms.com">
+                    <div class="partner-2"></div>
+                </a>
+                <a class="col-xl-4 mx-lg-auto wow fadeInUp" href="http://www.templatetuning.com/">
+                    <div class="partner-3"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-7 col-sm-10 mx-auto">
+                <h2>Contact us</h2>
+                <address> 8901 Marmora Road, Glasgow, D04 89GR.</address>
+                <p class="tel">Telephone: +1 800 603 6035</p>
+                <div class="social">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f wow jackInTheBox" data-wow-duration="2s"></i></a>
+                    <a href="https://www.twitter.com"><i class="fab fa-twitter wow jackInTheBox" data-wow-duration="2s"></i></a>
+                    <a href="https://www.googleplus.com"><i class="fab fa-google-plus-g wow jackInTheBox" data-wow-duration="2s"></i></a>
+                </div>
+                <a href="#home" id="toup"><i class="material-icons">arrow_drop_up</i></a>
+                <p class="copyright">Colorful Flat © 2015. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+</footer>
+<script>
+    $('.parallax-window').parallax({imageSrc: 'img/bg-faqs.jpg'});
+</script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1040) {
+                $('#myVideo').fadeOut();
+            } else {
+                $('#myVideo').fadeIn();
+            }
+            if ($(this).scrollTop() > 1700) {
+                $('#toup').fadeIn();
+            } else {
+                $('#toup').fadeOut();
+            }
+        });
+        $('.sliderT').slick({
+            autoplay: true,
+            dots: true,
+            arrows: false,
+            speed: 1000
+        });
+        $(".navbar").on("click", "a", function (event) {
+            event.preventDefault(); //отменяем стандартную обработку нажатия по ссылке
+            var id = $(this).attr('href'),//забираем идентификатор бока с атрибута href
+                top = $(id).offset().top;//узнаем высоту от начала страницы до блока на который ссылается якорь
+            $('body,html').animate({scrollTop: top}, 1500); //анимируем переход на расстояние - top за 1500 мс
+        });
+        $("#toup").click(function () {
+            $('body,html').animate({scrollTop: 0}, 1500);
+        });
+
+        $('[data-fancybox="images"]').fancybox({
+            buttons : [
+                'slideShow',
+                'share',
+                'zoom',
+                'fullScreen',
+                'close'
+            ],
+            thumbs : {
+                autoStart : true
+            }
+        });
+    });
+</script>
+<script>
+    var panelItem2 = document.querySelectorAll('.card-header'),
+        active2 = document.getElementsByClassName('panel-active');
+
+    Array.from(panelItem2).forEach(function (item, k, panelItem2) {
+        item.addEventListener('click', function (f) {
+            if (active2.length > 0 && active2[0] !== this) // если есть активный элемент, и это не тот по которому кликнули
+                active2[0].classList.remove('panel-active'); // убрать класс panel-active
+            this.classList.toggle('panel-active');// изменить состояние класса panel-active на текущем элементе: добавить если не было, убрать если было.
+        });
+    });
+</script>
+<!--<script>-->
+<!--var x = document.getElementById("more");-->
+<!--var y = document.getElementById("drop");-->
+
+<!--y.addEventListener("mouseover", dropfunc);-->
+
+<!--function dropfunc() {-->
+<!--x.style.display = "block";-->
+<!--};-->
+<!--y.addEventListener("mouseout", hidefunc);-->
+
+<!--function hidefunc() {-->
+<!--x.style.display = "none";-->
+<!--};-->
+<!--var name = document.getElementById("name");-->
+<!--var mail = document.getElementById("mail");-->
+<!--var phone = document.getElementById("phone");-->
+<!--var flag1 = false;-->
+<!--var flag2 = false;-->
+
+<!--function validationE() {-->
+<!--for (i = 0; i < mail.value.length; i++) {-->
+<!--if (mail.value[i] == '@') flag1 = true;-->
+<!--if (mail.value[i] == '.') flag2 = true;-->
+
+<!--}-->
+<!--if (flag1 == true && flag2 == true) return true;-->
+<!--else return false;-->
+<!--};-->
+
+<!--function validationP() {-->
+<!--if(phone.value.length == 10){-->
+<!--for(i=0;i<phone.value.length;i++){-->
+<!--if(phone.value[i]>=0&&phone.value[i]<=9){-->
+<!--return true;-->
+<!--}-->
+<!--}-->
+<!--}-->
+<!--else return false;-->
+<!--};-->
+
+<!--function check() {-->
+<!--if (validationE() == true && validationP() == true) alert("Добро пожаловать");-->
+<!--else alert("Неверно введены данные");-->
+<!--};-->
+<!--</script>-->
+<script>
+    var map;
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            // При создании объекта карты необходимо указать его свойства
+            // center - определяем точку на которой карта будет центрироваться
+            center: {lat: 40.691170, lng: -73.906876},
+            // zoom - определяет масштаб. 0 - видно всю платнеу. 18 - видно дома и улицы города.
+            zoom: 12,
+            styles: [[{
+                "featureType": "all",
+                "elementType": "labels.text.fill",
+                "stylers": [{"saturation": 36}, {"color": "#000000"}, {"lightness": 40}]
+            }, {
+                "featureType": "all",
+                "elementType": "labels.text.stroke",
+                "stylers": [{"visibility": "on"}, {"color": "#000000"}, {"lightness": 16}]
+            }, {
+                "featureType": "all",
+                "elementType": "labels.icon",
+                "stylers": [{"visibility": "off"}]
+            }, {
+                "featureType": "administrative",
+                "elementType": "geometry.fill",
+                "stylers": [{"color": "#000000"}, {"lightness": 20}]
+            }, {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [{"color": "#000000"}, {"lightness": 17}, {"weight": 1.2}]
+            }, {
+                "featureType": "landscape",
+                "elementType": "geometry",
+                "stylers": [{"color": "#000000"}, {"lightness": 20}]
+            }, {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [{"color": "#000000"}, {"lightness": 21}]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.fill",
+                "stylers": [{"color": "#000000"}, {"lightness": 17}]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [{"color": "#000000"}, {"lightness": 29}, {"weight": 0.2}]
+            }, {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [{"color": "#000000"}, {"lightness": 18}]
+            }, {
+                "featureType": "road.local",
+                "elementType": "geometry",
+                "stylers": [{"color": "#000000"}, {"lightness": 16}]
+            }, {
+                "featureType": "transit",
+                "elementType": "geometry",
+                "stylers": [{"color": "#000000"}, {"lightness": 19}]
+            }, {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [{"color": "#000000"}, {"lightness": 17}]
+            }]]
+        });
+        var marker = new google.maps.Marker({
+            position: {lat: 40.691170, lng: -73.906876},
+            map: map,
+            title: 'WebProffesional',
+            icon: 'icon-map.png'
+        });
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+</body>
+</html>
